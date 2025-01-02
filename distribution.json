@@ -1,0 +1,302 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "jeeddung-1.20.4",
+      "name": "jeeddung (Minecraft 1.20.4)",
+      "description": "jeeddung Running Minecraft 1.20.4 (Fabric v0.15.6)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.6",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1321135,
+            "MD5": "744dbc7c568d7e782e6616637a14f6b3",
+            "url": "https://jeeddung.github.io/ddung/repo/lib/net/fabricmc/fabric-loader/0.15.6/fabric-loader-0.15.6.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.15.6",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "131a7b7ced5a040a60b16f15560d0cfc",
+                "url": "https://jeeddung.github.io/ddung/repo/versions/1.20.4-fabric-0.15.6/1.20.4-fabric-0.15.6.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://jeeddung.github.io/ddung/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://jeeddung.github.io/ddung/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://jeeddung.github.io/ddung/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://jeeddung.github.io/ddung/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://jeeddung.github.io/ddung/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1451874,
+                "MD5": "4cc3ff559cafdc70d9ed80e869d447f0",
+                "url": "https://jeeddung.github.io/ddung/repo/lib/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://jeeddung.github.io/ddung/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.2.0@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 163227,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/caramelChat-mc1.20.4-fabric-1.2.0.jar",
+            "MD5": "59afda01c0be221d5e692e97dd2b77bf"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:controlling:15.0.5@jar",
+          "name": "Controlling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 82615,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/Controlling-fabric-1.20.4-15.0.5.jar",
+            "MD5": "7ba73ae4579743fdfe3836cae10345b8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.97.2+1.20.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2187410,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/fabric-api-0.97.2+1.20.4.jar",
+            "MD5": "2733c159c2f7628983a96b442ca3f823"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.2+mc1.20.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2703697,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/iris-1.7.2+mc1.20.4.jar",
+            "MD5": "fa3647d1891a719b268c636236d989c2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.0@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7209749,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/journeymap-1.20.4-5.10.0-fabric.jar",
+            "MD5": "ef20c2ebcdf8bc2c7fbca31db713b4e8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:searchables:1.0.6@jar",
+          "name": "Searchables",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 78369,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/Searchables-fabric-1.20.4-1.0.6.jar",
+            "MD5": "8ba20fa1e9c414a6a05de4861e796ba8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 949085,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "MD5": "d7753a50ca37f50abb10465a9a425dac"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.wurstclient.zoom:wi_zoom:1.5-MC1.20.4@jar",
+          "name": "WI Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 139421,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/WI-Zoom-1.5-MC1.20.4.jar",
+            "MD5": "94ed5306aea5ac57369941c47e0fc0b9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/fabric/indigo-renderer.properties",
+            "MD5": "f3f7e2c673ee4e847fb8bd8ca2d0a2c6",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 286,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/iris.properties",
+            "MD5": "03d62ba0c6077c3c51239a29347d59b3",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "sodium-fingerprint.json",
+          "name": "sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/sodium-fingerprint.json",
+            "MD5": "b5afd49d987f1bb17b974ed117d7c28a",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 265,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/sodium-mixins.properties",
+            "MD5": "456d99888369486f42d6ea7f70294170",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 632,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/sodium-options.json",
+            "MD5": "0526655acb6938560728d66ecb98fc90",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.3.zip",
+          "name": "ComplementaryReimagined_r5.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 446656,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/shaderpacks/ComplementaryReimagined_r5.3.zip",
+            "MD5": "16aed916088bde7a7e4a252e3d7ebcda",
+            "path": "shaderpacks/ComplementaryReimagined_r5.3.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.3.zip.txt",
+          "name": "ComplementaryReimagined_r5.3.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/shaderpacks/ComplementaryReimagined_r5.3.zip.txt",
+            "MD5": "9b91173686ee3822c89e10e4cd3a7695",
+            "path": "shaderpacks/ComplementaryReimagined_r5.3.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
