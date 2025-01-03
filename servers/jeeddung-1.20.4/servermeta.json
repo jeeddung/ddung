@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "name": "jeeddung (Minecraft 1.20.4)",
     "description": "jeeddung Running Minecraft 1.20.4 (Fabric v0.15.6)",
-    "icon": "https://media.discordapp.net/attachments/907057708337868863/1160458508093898834/image.png?ex=6778d034&is=67777eb4&hm=76d199cf2d224c46bf89bec5033d535421bb39cfcce25ba1158e2d999432caef&=&format=webp&quality=lossless",
+    "icon": "https://github.com/jeeddung/ddung/blob/main/servers/jeeddung-1.20.4/icon.png",
     "address": "localhost:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
