@@ -11,17 +11,17 @@
       "id": "jeeddung-1.20.4",
       "name": "jeeddung (Minecraft 1.20.4)",
       "description": "jeeddung Running Minecraft 1.20.4 (Fabric v0.15.6)",
-      "icon": null,
+      "icon": "https://media.discordapp.net/attachments/907057708337868863/1160458508093898834/image.png?ex=6778d034&is=67777eb4&hm=76d199cf2d224c46bf89bec5033d535421bb39cfcce25ba1158e2d999432caef&=&format=webp&quality=lossless",
       "version": "1.0.0",
-      "address": "14.55.102.24:25565",
+      "address": "localhost:25565",
       "minecraftVersion": "1.20.4",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.15.6",
@@ -39,7 +39,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 2847,
-                "MD5": "131a7b7ced5a040a60b16f15560d0cfc",
+                "MD5": "5b2ddc128a8d7ebc15673004daa82f0d",
                 "url": "https://jeeddung.github.io/ddung/repo/versions/1.20.4-fabric-0.15.6/1.20.4-fabric-0.15.6.json"
               }
             },
@@ -226,7 +226,7 @@
           "artifact": {
             "size": 290,
             "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/fabric/indigo-renderer.properties",
-            "MD5": "f3f7e2c673ee4e847fb8bd8ca2d0a2c6",
+            "MD5": "0c7c92e357324944d158ceed41ad01d0",
             "path": "config/fabric/indigo-renderer.properties"
           }
         },
@@ -237,7 +237,7 @@
           "artifact": {
             "size": 286,
             "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/iris.properties",
-            "MD5": "03d62ba0c6077c3c51239a29347d59b3",
+            "MD5": "87b47576e6dd634587778e9ae0f9caf6",
             "path": "config/iris.properties"
           }
         },
@@ -275,6 +275,39 @@
           }
         },
         {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4770,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/options.txt",
+            "MD5": "02a9f069219951c5c0fcfb8604d5d68b",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "Mc둥근모.zip",
+          "name": "Mc둥근모.zip",
+          "type": "File",
+          "artifact": {
+            "size": 461186,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/resourcepacks/Mc%EB%91%A5%EA%B7%BC%EB%AA%A8.zip",
+            "MD5": "e1e3c41331400ada21eb54e0cdc5a0f1",
+            "path": "resourcepacks/Mc둥근모.zip"
+          }
+        },
+        {
+          "id": "갈무리11_UI리터칭.zip",
+          "name": "갈무리11_UI리터칭.zip",
+          "type": "File",
+          "artifact": {
+            "size": 908409,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/resourcepacks/%EA%B0%88%EB%AC%B4%EB%A6%AC11_UI%EB%A6%AC%ED%84%B0%EC%B9%AD.zip",
+            "MD5": "25bd070bce8d8ac5b73e0b2573cc20bb",
+            "path": "resourcepacks/갈무리11_UI리터칭.zip"
+          }
+        },
+        {
           "id": "ComplementaryReimagined_r5.3.zip",
           "name": "ComplementaryReimagined_r5.3.zip",
           "type": "File",
@@ -292,7 +325,7 @@
           "artifact": {
             "size": 75,
             "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/shaderpacks/ComplementaryReimagined_r5.3.zip.txt",
-            "MD5": "9b91173686ee3822c89e10e4cd3a7695",
+            "MD5": "0d465f85e977a89e025a33af066237a1",
             "path": "shaderpacks/ComplementaryReimagined_r5.3.zip.txt"
           }
         }
