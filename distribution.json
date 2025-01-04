@@ -11,7 +11,7 @@
       "id": "jeeddung-1.20.4",
       "name": "jeeddung (Minecraft 1.20.4)",
       "description": "jeeddung Running Minecraft 1.20.4 (Fabric v0.15.6)",
-      "icon": "https://github.com/jeeddung/ddung/blob/main/servers/jeeddung-1.20.4/icon.png",
+      "icon": "https://raw.githubusercontent.com/jeeddung/ddung/main/servers/jeeddung-1.20.4/icon.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.4",
