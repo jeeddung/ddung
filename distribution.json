@@ -11,7 +11,7 @@
       "id": "jeeddung-1.20.4",
       "name": "jeeddung (Minecraft 1.20.4)",
       "description": "jeeddung Running Minecraft 1.20.4 (Fabric v0.15.6)",
-      "icon": "https://raw.githubusercontent.com/jeeddung/ddung/main/servers/jeeddung-1.20.4/icon.png",
+      "icon": "https://github.com/jeeddung/ddung/blob/main/servers/jeeddung-1.20.4/icon.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.4",
@@ -226,7 +226,7 @@
           "artifact": {
             "size": 290,
             "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/fabric/indigo-renderer.properties",
-            "MD5": "0c7c92e357324944d158ceed41ad01d0",
+            "MD5": "85234cf6309eeca4d7a2256d5ef89ad2",
             "path": "config/fabric/indigo-renderer.properties"
           }
         },
@@ -237,8 +237,19 @@
           "artifact": {
             "size": 286,
             "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/iris.properties",
-            "MD5": "87b47576e6dd634587778e9ae0f9caf6",
+            "MD5": "423405933d5f9b76a0524d25d9515ef4",
             "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "journeymap-server.json",
+          "name": "journeymap-server.json",
+          "type": "File",
+          "artifact": {
+            "size": 67,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/journeymap-server.json",
+            "MD5": "1de3b1bd220fc2e0696e0946001baa66",
+            "path": "config/journeymap-server.json"
           }
         },
         {
@@ -268,9 +279,9 @@
           "name": "sodium-options.json",
           "type": "File",
           "artifact": {
-            "size": 632,
+            "size": 631,
             "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/sodium-options.json",
-            "MD5": "0526655acb6938560728d66ecb98fc90",
+            "MD5": "a1825f69c29b5db6b13d4e1c9eba4161",
             "path": "config/sodium-options.json"
           }
         },
@@ -279,10 +290,21 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 4770,
+            "size": 4921,
             "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/options.txt",
-            "MD5": "02a9f069219951c5c0fcfb8604d5d68b",
+            "MD5": "7e33e5ace018ceeaa41f676c1c53b7fb",
             "path": "options.txt"
+          }
+        },
+        {
+          "id": "CookieRun.zip",
+          "name": "CookieRun.zip",
+          "type": "File",
+          "artifact": {
+            "size": 581395,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/resourcepacks/CookieRun.zip",
+            "MD5": "91bea4da290045b86552e1be34f61070",
+            "path": "resourcepacks/CookieRun.zip"
           }
         },
         {
@@ -323,9 +345,9 @@
           "name": "ComplementaryReimagined_r5.3.zip.txt",
           "type": "File",
           "artifact": {
-            "size": 75,
+            "size": 97,
             "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/shaderpacks/ComplementaryReimagined_r5.3.zip.txt",
-            "MD5": "0d465f85e977a89e025a33af066237a1",
+            "MD5": "e0fafd9291c37fab919dd04595b6d3cb",
             "path": "shaderpacks/ComplementaryReimagined_r5.3.zip.txt"
           }
         }
