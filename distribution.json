@@ -8,13 +8,13 @@
   },
   "servers": [
     {
-      "id": "jeeddung-1.20.4",
-      "name": "jeeddung (Minecraft 1.20.4)",
-      "description": "jeeddung Running Minecraft 1.20.4 (Fabric v0.15.6)",
-      "icon": "https://github.com/jeeddung/ddung/blob/main/servers/jeeddung-1.20.4/icon.png",
+      "id": "jeeddung-1.20.1",
+      "name": "jeeddung (Minecraft 1.20.1)",
+      "description": "jeeddung Running Minecraft 1.20.1 (Fabric v0.15.6)",
+      "icon": "https://github.com/jeeddung/ddung/blob/main/icon.png",
       "version": "1.0.0",
       "address": "localhost:25565",
-      "minecraftVersion": "1.20.4",
+      "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -34,13 +34,13 @@
           },
           "subModules": [
             {
-              "id": "1.20.4-fabric-0.15.6",
+              "id": "1.20.1-fabric-0.15.6",
               "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
                 "size": 2847,
-                "MD5": "5b2ddc128a8d7ebc15673004daa82f0d",
-                "url": "https://jeeddung.github.io/ddung/repo/versions/1.20.4-fabric-0.15.6/1.20.4-fabric-0.15.6.json"
+                "MD5": "75931da683f9f931000de1556f0f1ddd",
+                "url": "https://jeeddung.github.io/ddung/repo/versions/1.20.1-fabric-0.15.6/1.20.1-fabric-0.15.6.json"
               }
             },
             {
@@ -104,119 +104,232 @@
               }
             },
             {
-              "id": "net.fabricmc:intermediary:1.20.4",
+              "id": "net.fabricmc:intermediary:1.20.1",
               "name": "Fabric (intermediary)",
               "type": "Library",
               "artifact": {
-                "size": 608319,
-                "MD5": "3a1cade1634c518db6147c9771686ea9",
-                "url": "https://jeeddung.github.io/ddung/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://jeeddung.github.io/ddung/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
               }
             }
           ]
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1064362,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/appleskin-fabric-mc1.20.1-2.5.1.jar",
+            "MD5": "723370be246a876144ae424cbbfd60f4"
+          },
+          "required": {
+            "value": false
+          }
         },
         {
           "id": "moe.caramel.chat:caramelchat:1.2.0@jar",
           "name": "CaramelChat",
           "type": "FabricMod",
           "artifact": {
-            "size": 163227,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/caramelChat-mc1.20.4-fabric-1.2.0.jar",
-            "MD5": "59afda01c0be221d5e692e97dd2b77bf"
+            "size": 343899,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/caramelChat-mc1.20.1-fabric-1.2.0.jar",
+            "MD5": "69ec9d55a7a980bc1159cc33e246d581"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "generated.fabricmod:controlling:15.0.5@jar",
-          "name": "Controlling",
+          "id": "generated.fabricmod:controlling:12.0.2@jar",
+          "name": "Controlling For Fabric",
           "type": "FabricMod",
           "artifact": {
-            "size": 82615,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/Controlling-fabric-1.20.4-15.0.5.jar",
-            "MD5": "7ba73ae4579743fdfe3836cae10345b8"
+            "size": 122777,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/Controlling-fabric-1.20.1-12.0.2.jar",
+            "MD5": "a225242dbf419ffa0eb1a79a503d1858"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.97.2+1.20.4@jar",
+          "id": "generated.fabricmod:fabric-api:0.92.3+1.20.1@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 2187410,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/fabric-api-0.97.2+1.20.4.jar",
-            "MD5": "2733c159c2f7628983a96b442ca3f823"
+            "size": 2107985,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/fabric-api-0.92.3+1.20.1.jar",
+            "MD5": "dc37eff29b709467379bc41ae4f721b4"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "generated.fabricmod:iris:1.7.2+mc1.20.4@jar",
+          "id": "fuzs.forgeconfigapiport.impl:forgeconfigapiport:8.0.1@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 396955,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/ForgeConfigAPIPort-v8.0.1-1.20.1-Fabric.jar",
+            "MD5": "0842b1a68c115149c95a25e14d67acad"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.25@jar",
+          "name": "Iceberg",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 119018,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/Iceberg-1.20.1-fabric-1.1.25.jar",
+            "MD5": "063fa399d8886abc0b1b612e968b8e0b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.5+mc1.20.1@jar",
           "name": "Iris",
           "type": "FabricMod",
           "artifact": {
-            "size": 2703697,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/iris-1.7.2+mc1.20.4.jar",
-            "MD5": "fa3647d1891a719b268c636236d989c2"
+            "size": 2730664,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/iris-1.7.5+mc1.20.1.jar",
+            "MD5": "902528a82a843300ecf9027af9f8fb8c"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "journeymap:journeymap:5.10.0@jar",
+          "id": "journeymap:journeymap:5.10.3@jar",
           "name": "Journeymap",
           "type": "FabricMod",
           "artifact": {
-            "size": 7209749,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/journeymap-1.20.4-5.10.0-fabric.jar",
-            "MD5": "ef20c2ebcdf8bc2c7fbca31db713b4e8"
+            "size": 7209178,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/journeymap-1.20.1-5.10.3-fabric.jar",
+            "MD5": "0daacf8f13dd33450a970601cf21d627"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "generated.fabricmod:searchables:1.0.6@jar",
+          "id": "com.anthonyhilyard:legendarytooltips:1.4.5@jar",
+          "name": "Legendary Tooltips",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 63969,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/LegendaryTooltips-1.20.1-fabric-1.4.5.jar",
+            "MD5": "da13b6865a45746799f4465409509a52"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.26@jar",
+          "name": "Mouse Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77943,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/MouseTweaks-fabric-mc1.20-2.26.jar",
+            "MD5": "3138c776d370c90603938eb54d17469a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:prism:1.0.5@jar",
+          "name": "Prism",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 57257,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/Prism-1.20.1-fabric-1.0.5.jar",
+            "MD5": "2eed6d81c1b72c75646d33b1b5d9dcfe"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:searchables:1.0.3@jar",
           "name": "Searchables",
           "type": "FabricMod",
           "artifact": {
-            "size": 78369,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/Searchables-fabric-1.20.4-1.0.6.jar",
-            "MD5": "8ba20fa1e9c414a6a05de4861e796ba8"
+            "size": 80283,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/Searchables-fabric-1.20.1-1.0.3.jar",
+            "MD5": "92d987a6bc23a419a439f876fd9e4d59"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
+          "id": "me.jellysquid.mods:sodium:0.5.11+mc1.20.1@jar",
           "name": "Sodium",
           "type": "FabricMod",
           "artifact": {
-            "size": 949085,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/sodium-fabric-0.5.8+mc1.20.4.jar",
-            "MD5": "d7753a50ca37f50abb10465a9a425dac"
+            "size": 968419,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/sodium-fabric-0.5.11+mc1.20.1.jar",
+            "MD5": "9880bae748957d1cb6c4de50c8e0452a"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "net.wurstclient.zoom:wi_zoom:1.5-MC1.20.4@jar",
-          "name": "WI Zoom",
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.28@jar",
+          "name": "Simple Voice Chat",
           "type": "FabricMod",
           "artifact": {
-            "size": 139421,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/fabricmods/optionalon/WI-Zoom-1.5-MC1.20.4.jar",
-            "MD5": "94ed5306aea5ac57369941c47e0fc0b9"
+            "size": 8098760,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/voicechat-fabric-1.20.1-2.5.28.jar",
+            "MD5": "5b415e2a7775375e3be999d262341ba0"
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "net.wurstclient.zoom:wi_zoom:1.5-MC1.20.1@jar",
+          "name": "WI Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 141604,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/fabricmods/optionalon/WI-Zoom-1.5-MC1.20.1.jar",
+            "MD5": "a8631321ae0a6523a32ed51f6020f60c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "appleskin.json5",
+          "name": "appleskin.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1327,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/appleskin.json5",
+            "MD5": "406b4584562fb60304a8adc824de0000",
+            "path": "config/appleskin.json5"
+          }
+        },
+        {
+          "id": "asteorbar.json5",
+          "name": "asteorbar.json5",
+          "type": "File",
+          "artifact": {
+            "size": 13224,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/asteorbar.json5",
+            "MD5": "65cfaf7c83980cc5589a0ae930f1926c",
+            "path": "config/asteorbar.json5"
           }
         },
         {
@@ -225,9 +338,20 @@
           "type": "File",
           "artifact": {
             "size": 290,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/fabric/indigo-renderer.properties",
-            "MD5": "85234cf6309eeca4d7a2256d5ef89ad2",
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "be89a055a4591058961869a644ad6869",
             "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "forgeconfigapiport.toml",
+          "name": "forgeconfigapiport.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1582,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/forgeconfigapiport.toml",
+            "MD5": "e720ac09f829c9cf877d127dd3115225",
+            "path": "config/forgeconfigapiport.toml"
           }
         },
         {
@@ -236,8 +360,8 @@
           "type": "File",
           "artifact": {
             "size": 286,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/iris.properties",
-            "MD5": "423405933d5f9b76a0524d25d9515ef4",
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/iris.properties",
+            "MD5": "b03d301382c3b822df510a70fbca5f50",
             "path": "config/iris.properties"
           }
         },
@@ -247,9 +371,42 @@
           "type": "File",
           "artifact": {
             "size": 67,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/journeymap-server.json",
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/journeymap-server.json",
             "MD5": "1de3b1bd220fc2e0696e0946001baa66",
             "path": "config/journeymap-server.json"
+          }
+        },
+        {
+          "id": "legendarytooltips-common.toml",
+          "name": "legendarytooltips-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 8283,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/legendarytooltips-common.toml",
+            "MD5": "e32f4adaed9c80edf3f33b30f2f44c68",
+            "path": "config/legendarytooltips-common.toml"
+          }
+        },
+        {
+          "id": "MouseTweaks.cfg",
+          "name": "MouseTweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 135,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/MouseTweaks.cfg",
+            "MD5": "ff577ca09e989c07c056c7cdff465be3",
+            "path": "config/MouseTweaks.cfg"
+          }
+        },
+        {
+          "id": "mousewheelie.hjson",
+          "name": "mousewheelie.hjson",
+          "type": "File",
+          "artifact": {
+            "size": 7292,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/mousewheelie.hjson",
+            "MD5": "0cc74079b41042d5e9776395d224a542",
+            "path": "config/mousewheelie.hjson"
           }
         },
         {
@@ -258,8 +415,8 @@
           "type": "File",
           "artifact": {
             "size": 427,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/sodium-fingerprint.json",
-            "MD5": "b5afd49d987f1bb17b974ed117d7c28a",
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/sodium-fingerprint.json",
+            "MD5": "3c92b0a683cd9621ce91940e9760e892",
             "path": "config/sodium-fingerprint.json"
           }
         },
@@ -269,7 +426,7 @@
           "type": "File",
           "artifact": {
             "size": 265,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/sodium-mixins.properties",
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/sodium-mixins.properties",
             "MD5": "456d99888369486f42d6ea7f70294170",
             "path": "config/sodium-mixins.properties"
           }
@@ -280,20 +437,64 @@
           "type": "File",
           "artifact": {
             "size": 631,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/config/sodium-options.json",
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/sodium-options.json",
             "MD5": "a1825f69c29b5db6b13d4e1c9eba4161",
             "path": "config/sodium-options.json"
           }
         },
         {
-          "id": "options.txt",
-          "name": "options.txt",
+          "id": "translations.properties",
+          "name": "translations.properties",
           "type": "File",
           "artifact": {
-            "size": 4921,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/options.txt",
-            "MD5": "7e33e5ace018ceeaa41f676c1c53b7fb",
-            "path": "options.txt"
+            "size": 1182,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/voicechat/translations.properties",
+            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "username-cache.json",
+          "name": "username-cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/voicechat/username-cache.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/voicechat/username-cache.json"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4397,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "d1f29d8eced786414835ee62a09f6461",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2502,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/voicechat/voicechat-server.properties",
+            "MD5": "e7f0e62a80147a9d203c69cca35b5f3a",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "voicechat-volumes.properties",
+          "name": "voicechat-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 37,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/config/voicechat/voicechat-volumes.properties",
+            "MD5": "fcb38654c898989fdf9b82707c3ee2f5",
+            "path": "config/voicechat/voicechat-volumes.properties"
           }
         },
         {
@@ -302,7 +503,7 @@
           "type": "File",
           "artifact": {
             "size": 581395,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/resourcepacks/CookieRun.zip",
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/CookieRun.zip",
             "MD5": "91bea4da290045b86552e1be34f61070",
             "path": "resourcepacks/CookieRun.zip"
           }
@@ -313,9 +514,493 @@
           "type": "File",
           "artifact": {
             "size": 461186,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/resourcepacks/Mc%EB%91%A5%EA%B7%BC%EB%AA%A8.zip",
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/Mc%EB%91%A5%EA%B7%BC%EB%AA%A8.zip",
             "MD5": "e1e3c41331400ada21eb54e0cdc5a0f1",
             "path": "resourcepacks/Mc둥근모.zip"
+          }
+        },
+        {
+          "id": "leather_horse_armor.json",
+          "name": "leather_horse_armor.json",
+          "type": "File",
+          "artifact": {
+            "size": 2612,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/minecraft/models/item/leather_horse_armor.json",
+            "MD5": "d71d0f9b8d7682cc1ba8449d9b5b60b2",
+            "path": "resourcepacks/resourcepack (for players)/assets/minecraft/models/item/leather_horse_armor.json"
+          }
+        },
+        {
+          "id": "emissive.properties",
+          "name": "emissive.properties",
+          "type": "File",
+          "artifact": {
+            "size": 18,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/minecraft/optifine/emissive.properties",
+            "MD5": "fe44eaeba41cff82912c8e407f3a5fbd",
+            "path": "resourcepacks/resourcepack (for players)/assets/minecraft/optifine/emissive.properties"
+          }
+        },
+        {
+          "id": "body.json",
+          "name": "body.json",
+          "type": "File",
+          "artifact": {
+            "size": 737,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_common/body.json",
+            "MD5": "f943c336df0ead8aea5337e3a82bfac7",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_common/body.json"
+          }
+        },
+        {
+          "id": "head.json",
+          "name": "head.json",
+          "type": "File",
+          "artifact": {
+            "size": 2539,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_common/head.json",
+            "MD5": "a7c478b4f301690c8d2901a4b378dc31",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_common/head.json"
+          }
+        },
+        {
+          "id": "body.json",
+          "name": "body.json",
+          "type": "File",
+          "artifact": {
+            "size": 758,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_frost/body.json",
+            "MD5": "3189c0815f6081ff3f366c38e96e4ad5",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_frost/body.json"
+          }
+        },
+        {
+          "id": "head.json",
+          "name": "head.json",
+          "type": "File",
+          "artifact": {
+            "size": 4384,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_frost/head.json",
+            "MD5": "97614a7c6508f4a13477a8e39a59a166",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_frost/head.json"
+          }
+        },
+        {
+          "id": "body.json",
+          "name": "body.json",
+          "type": "File",
+          "artifact": {
+            "size": 758,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_healer/body.json",
+            "MD5": "cf7d1ece257fca6632df554d474cd66c",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_healer/body.json"
+          }
+        },
+        {
+          "id": "head.json",
+          "name": "head.json",
+          "type": "File",
+          "artifact": {
+            "size": 3765,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_healer/head.json",
+            "MD5": "6af25c87daec0835ce8c60686591d443",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_healer/head.json"
+          }
+        },
+        {
+          "id": "body.json",
+          "name": "body.json",
+          "type": "File",
+          "artifact": {
+            "size": 792,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_king/body.json",
+            "MD5": "8549b3c2eeab967a3596df4eabb19607",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_king/body.json"
+          }
+        },
+        {
+          "id": "crown.json",
+          "name": "crown.json",
+          "type": "File",
+          "artifact": {
+            "size": 4027,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_king/crown.json",
+            "MD5": "82b2d41b3549d336c0f28794b43b801f",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_king/crown.json"
+          }
+        },
+        {
+          "id": "head.json",
+          "name": "head.json",
+          "type": "File",
+          "artifact": {
+            "size": 2718,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_king/head.json",
+            "MD5": "218e9e34aa387dd1c1fc3508d4b933c8",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_king/head.json"
+          }
+        },
+        {
+          "id": "stomach.json",
+          "name": "stomach.json",
+          "type": "File",
+          "artifact": {
+            "size": 2115,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_king/stomach.json",
+            "MD5": "6a2ffd925357b848c49057176f728c34",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_king/stomach.json"
+          }
+        },
+        {
+          "id": "body.json",
+          "name": "body.json",
+          "type": "File",
+          "artifact": {
+            "size": 741,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_lava/body.json",
+            "MD5": "dd7331539e7bd3cee16d4a3767e2a27d",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_lava/body.json"
+          }
+        },
+        {
+          "id": "head.json",
+          "name": "head.json",
+          "type": "File",
+          "artifact": {
+            "size": 4980,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_lava/head.json",
+            "MD5": "f814084e8cf34353f25b199fddd11026",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_lava/head.json"
+          }
+        },
+        {
+          "id": "arm.json",
+          "name": "arm.json",
+          "type": "File",
+          "artifact": {
+            "size": 2053,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_mage/arm.json",
+            "MD5": "85ac75ba1e0b671d27a2164b687e13b7",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_mage/arm.json"
+          }
+        },
+        {
+          "id": "body.json",
+          "name": "body.json",
+          "type": "File",
+          "artifact": {
+            "size": 793,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_mage/body.json",
+            "MD5": "fb10dc6de07d7bf1f1db05bb6e374012",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_mage/body.json"
+          }
+        },
+        {
+          "id": "hat.json",
+          "name": "hat.json",
+          "type": "File",
+          "artifact": {
+            "size": 2609,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_mage/hat.json",
+            "MD5": "04d08fd431d9a3a7aa52cb608bc28e0c",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_mage/hat.json"
+          }
+        },
+        {
+          "id": "head.json",
+          "name": "head.json",
+          "type": "File",
+          "artifact": {
+            "size": 2659,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_mage/head.json",
+            "MD5": "c0ad1281ebdc2ad003af8a420e8172d7",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_mage/head.json"
+          }
+        },
+        {
+          "id": "body.json",
+          "name": "body.json",
+          "type": "File",
+          "artifact": {
+            "size": 779,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_triple/body.json",
+            "MD5": "3b92d6687ef1d5c93c4f3ec7eb8a0a7c",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_triple/body.json"
+          }
+        },
+        {
+          "id": "body2.json",
+          "name": "body2.json",
+          "type": "File",
+          "artifact": {
+            "size": 779,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_triple/body2.json",
+            "MD5": "3b92d6687ef1d5c93c4f3ec7eb8a0a7c",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_triple/body2.json"
+          }
+        },
+        {
+          "id": "body3.json",
+          "name": "body3.json",
+          "type": "File",
+          "artifact": {
+            "size": 779,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_triple/body3.json",
+            "MD5": "3b92d6687ef1d5c93c4f3ec7eb8a0a7c",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_triple/body3.json"
+          }
+        },
+        {
+          "id": "head.json",
+          "name": "head.json",
+          "type": "File",
+          "artifact": {
+            "size": 2574,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_triple/head.json",
+            "MD5": "ce94f6b8578f6bb4c4b6331e7ef8c507",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_triple/head.json"
+          }
+        },
+        {
+          "id": "head2.json",
+          "name": "head2.json",
+          "type": "File",
+          "artifact": {
+            "size": 2574,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_triple/head2.json",
+            "MD5": "ce94f6b8578f6bb4c4b6331e7ef8c507",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_triple/head2.json"
+          }
+        },
+        {
+          "id": "head3.json",
+          "name": "head3.json",
+          "type": "File",
+          "artifact": {
+            "size": 2574,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_triple/head3.json",
+            "MD5": "ce94f6b8578f6bb4c4b6331e7ef8c507",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_triple/head3.json"
+          }
+        },
+        {
+          "id": "arm.json",
+          "name": "arm.json",
+          "type": "File",
+          "artifact": {
+            "size": 3308,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_warrior/arm.json",
+            "MD5": "56af72aa0f5cceb5a4b329d7ddd8d7fa",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_warrior/arm.json"
+          }
+        },
+        {
+          "id": "body.json",
+          "name": "body.json",
+          "type": "File",
+          "artifact": {
+            "size": 788,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_warrior/body.json",
+            "MD5": "d9ae8b3c7b9e5391e80c0719c354e34d",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_warrior/body.json"
+          }
+        },
+        {
+          "id": "head.json",
+          "name": "head.json",
+          "type": "File",
+          "artifact": {
+            "size": 8342,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_warrior/head.json",
+            "MD5": "52217e168148c1fa03e7058ba2c8d360",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_warrior/head.json"
+          }
+        },
+        {
+          "id": "body.json",
+          "name": "body.json",
+          "type": "File",
+          "artifact": {
+            "size": 773,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_winged/body.json",
+            "MD5": "929e65b5750b75c2b7429b74ea1ec7fe",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_winged/body.json"
+          }
+        },
+        {
+          "id": "head.json",
+          "name": "head.json",
+          "type": "File",
+          "artifact": {
+            "size": 2623,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_winged/head.json",
+            "MD5": "40fa0c6a355d79593676cb399926d6ff",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_winged/head.json"
+          }
+        },
+        {
+          "id": "left_wing.json",
+          "name": "left_wing.json",
+          "type": "File",
+          "artifact": {
+            "size": 1424,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_winged/left_wing.json",
+            "MD5": "aff8c91afe3c1e47c2786e7e13d93503",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_winged/left_wing.json"
+          }
+        },
+        {
+          "id": "left_wing_end.json",
+          "name": "left_wing_end.json",
+          "type": "File",
+          "artifact": {
+            "size": 1411,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_winged/left_wing_end.json",
+            "MD5": "3ae79e8762170f18f927a686a0c5ce9f",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_winged/left_wing_end.json"
+          }
+        },
+        {
+          "id": "right_wing.json",
+          "name": "right_wing.json",
+          "type": "File",
+          "artifact": {
+            "size": 1422,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_winged/right_wing.json",
+            "MD5": "5ca7fb85759d9bbe988d2ad4f079f8b6",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_winged/right_wing.json"
+          }
+        },
+        {
+          "id": "right_wing_end.json",
+          "name": "right_wing_end.json",
+          "type": "File",
+          "artifact": {
+            "size": 1411,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/models/slime_winged/right_wing_end.json",
+            "MD5": "555643364674a9531db6c753d0e7a4e6",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/models/slime_winged/right_wing_end.json"
+          }
+        },
+        {
+          "id": "slime_common.png",
+          "name": "slime_common.png",
+          "type": "File",
+          "artifact": {
+            "size": 1166,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/textures/entity/slime_common.png",
+            "MD5": "196d69706fd26f3f61c99a54ab2d030e",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/textures/entity/slime_common.png"
+          }
+        },
+        {
+          "id": "slime_frost.png",
+          "name": "slime_frost.png",
+          "type": "File",
+          "artifact": {
+            "size": 1008,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/textures/entity/slime_frost.png",
+            "MD5": "139d0a1f76b90b0c5c6ac15a6a8c1647",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/textures/entity/slime_frost.png"
+          }
+        },
+        {
+          "id": "slime_healer.png",
+          "name": "slime_healer.png",
+          "type": "File",
+          "artifact": {
+            "size": 1099,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/textures/entity/slime_healer.png",
+            "MD5": "e61dfa8cb170b0db7f3371646233c961",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/textures/entity/slime_healer.png"
+          }
+        },
+        {
+          "id": "slime_king.png",
+          "name": "slime_king.png",
+          "type": "File",
+          "artifact": {
+            "size": 5565,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/textures/entity/slime_king.png",
+            "MD5": "f1964200e552de67120bf9616a1e1a4a",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/textures/entity/slime_king.png"
+          }
+        },
+        {
+          "id": "slime_lava.png",
+          "name": "slime_lava.png",
+          "type": "File",
+          "artifact": {
+            "size": 1099,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/textures/entity/slime_lava.png",
+            "MD5": "e4c5f7379072658be63d8e1e7c231b36",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/textures/entity/slime_lava.png"
+          }
+        },
+        {
+          "id": "slime_mage.png",
+          "name": "slime_mage.png",
+          "type": "File",
+          "artifact": {
+            "size": 2019,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/textures/entity/slime_mage.png",
+            "MD5": "3e6069cc0da11c82784d277c87740926",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/textures/entity/slime_mage.png"
+          }
+        },
+        {
+          "id": "slime_triple.png",
+          "name": "slime_triple.png",
+          "type": "File",
+          "artifact": {
+            "size": 1161,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/textures/entity/slime_triple.png",
+            "MD5": "6be275697d5bcca41814da2efcb98f6b",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/textures/entity/slime_triple.png"
+          }
+        },
+        {
+          "id": "slime_warrior.png",
+          "name": "slime_warrior.png",
+          "type": "File",
+          "artifact": {
+            "size": 1934,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/textures/entity/slime_warrior.png",
+            "MD5": "1d29a81e31b62755235783156ffa5f21",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/textures/entity/slime_warrior.png"
+          }
+        },
+        {
+          "id": "slime_winged.png",
+          "name": "slime_winged.png",
+          "type": "File",
+          "artifact": {
+            "size": 1430,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/assets/modelengine/textures/entity/slime_winged.png",
+            "MD5": "b25299b4a6b56c59a327b4ad680d50c3",
+            "path": "resourcepacks/resourcepack (for players)/assets/modelengine/textures/entity/slime_winged.png"
+          }
+        },
+        {
+          "id": "pack.mcmeta",
+          "name": "pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 126,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/pack.mcmeta",
+            "MD5": "621bb3be6e2cb8769cd9b56a26eea88d",
+            "path": "resourcepacks/resourcepack (for players)/pack.mcmeta"
+          }
+        },
+        {
+          "id": "pack.png",
+          "name": "pack.png",
+          "type": "File",
+          "artifact": {
+            "size": 11621,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/resourcepack%20(for%20players)/pack.png",
+            "MD5": "d08583a3cdee0b5d78199ee3a03f55b3",
+            "path": "resourcepacks/resourcepack (for players)/pack.png"
           }
         },
         {
@@ -324,31 +1009,31 @@
           "type": "File",
           "artifact": {
             "size": 908409,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/resourcepacks/%EA%B0%88%EB%AC%B4%EB%A6%AC11_UI%EB%A6%AC%ED%84%B0%EC%B9%AD.zip",
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/resourcepacks/%EA%B0%88%EB%AC%B4%EB%A6%AC11_UI%EB%A6%AC%ED%84%B0%EC%B9%AD.zip",
             "MD5": "25bd070bce8d8ac5b73e0b2573cc20bb",
             "path": "resourcepacks/갈무리11_UI리터칭.zip"
           }
         },
         {
-          "id": "ComplementaryReimagined_r5.3.zip",
-          "name": "ComplementaryReimagined_r5.3.zip",
+          "id": "ComplementaryReimagined_r5.4.zip",
+          "name": "ComplementaryReimagined_r5.4.zip",
           "type": "File",
           "artifact": {
-            "size": 446656,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/shaderpacks/ComplementaryReimagined_r5.3.zip",
-            "MD5": "16aed916088bde7a7e4a252e3d7ebcda",
-            "path": "shaderpacks/ComplementaryReimagined_r5.3.zip"
+            "size": 452405,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.4.zip",
+            "MD5": "1a67030845ad123f56a3b5f6d8fb9b7c",
+            "path": "shaderpacks/ComplementaryReimagined_r5.4.zip"
           }
         },
         {
-          "id": "ComplementaryReimagined_r5.3.zip.txt",
-          "name": "ComplementaryReimagined_r5.3.zip.txt",
+          "id": "ComplementaryReimagined_r5.4.zip.txt",
+          "name": "ComplementaryReimagined_r5.4.zip.txt",
           "type": "File",
           "artifact": {
-            "size": 97,
-            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.4/files/shaderpacks/ComplementaryReimagined_r5.3.zip.txt",
-            "MD5": "e0fafd9291c37fab919dd04595b6d3cb",
-            "path": "shaderpacks/ComplementaryReimagined_r5.3.zip.txt"
+            "size": 156,
+            "url": "https://jeeddung.github.io/ddung/servers/jeeddung-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.4.zip.txt",
+            "MD5": "dc4b6bf6e129ed26c98db037973c8daa",
+            "path": "shaderpacks/ComplementaryReimagined_r5.4.zip.txt"
           }
         }
       ]
